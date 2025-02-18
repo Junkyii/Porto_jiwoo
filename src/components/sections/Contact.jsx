@@ -22,7 +22,7 @@ export const Contact = () => {
       )
       // eslint-disable-next-line no-unused-vars
       .then((result) => {
-        toast('🦄 Wow so easy!', {
+        toast('Berhasil Terkirim', {
           position: "top-right",
           autoClose: 5000,
           hideProgressBar: false,

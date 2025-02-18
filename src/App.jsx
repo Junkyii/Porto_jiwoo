@@ -10,6 +10,7 @@ import "./index.css";
 import { Contact } from "./components/sections/Contact";
 import Certificate from "./components/sections/Certificate";
 import { Footer } from "./components/copyright";
+import { ToastContainer } from "react-toastify";
 
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -23,6 +24,7 @@ function App() {
           isLoaded ? "opacity-100" : "opacity-0"
         } bg-black text-gray-100`}
       >
+        <ToastContainer />
         <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <Home />

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { RevealOnScroll } from "../RevealOnScroll";
 import emailjs from "emailjs-com";
+import { toast, Bounce } from "react-toastify";
 
 export const Contact = () => {
   const [formData, setFormData] = useState({
@@ -21,7 +22,17 @@ export const Contact = () => {
       )
       // eslint-disable-next-line no-unused-vars
       .then((result) => {
-        alert("Message Sent!");
+        toast('🦄 Wow so easy!', {
+          position: "top-right",
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: false,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "light",
+          transition: Bounce,
+          });
         setFormData({ name: "", email: "", message: "" });
       })
       .catch(() => alert("Oops! Something went wrong. Please try again."));

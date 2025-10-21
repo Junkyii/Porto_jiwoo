@@ -4,7 +4,7 @@ export const Certificate = () => {
   const certificates = [
     {
       id: 1,
-      image: "https://drive.google.com/file/d/1CuqMm1hx-8mtP52Kla0G2oFz3NiSFM_o/view?usp=drive_link", 
+      image: "https://drive.google.com/uc?export=view&id=1CuqMm1hx-8mtP52Kla0G2oFz3NiSFM_o", 
       alt: "Certificate 1",
     },
   ];

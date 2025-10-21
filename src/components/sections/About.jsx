@@ -70,7 +70,8 @@ export const About = () => {
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
                   <strong> Rekayasa Perangkat Lunak </strong> - SMKN 4 BANDUNG
-                  (2021-Now)
+                  (2021-2025)
+                  <strong> Teknik Informatika </strong> - Universitas Teknologi Digital (2025)
                 </li>
               </ul>
             </div>
